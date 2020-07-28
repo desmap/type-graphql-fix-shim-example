@@ -1,6 +1,6 @@
 import * as src from 'type-graphql'
 
-const shim = true
+const shim = process.env.TYPE_GRAPHQL_SHIM
 console.log(shim && 'The shim is enabled.')
 
 export const dummyValue = ''
