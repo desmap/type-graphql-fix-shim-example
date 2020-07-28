@@ -1,0 +1,24 @@
+{
+  "name": "fix-tgql",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "scripts": {
+    "dev": "tsc -w --preserveWatchOutput",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.0.26",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "class-validator": "^0.12.2",
+    "fix-tgql": "workspace:^1.0.0",
+    "graphql": "^15.3.0",
+    "type-graphql": "^1.0.0-rc.3"
+  }
+}

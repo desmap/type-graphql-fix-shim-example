@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "scripts": {
+    "dev": "cross-env TYPE_GRAPHQL_SHIM=1 tsc -w --preserveWatchOutput & nodemon build --delay 2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "some-shared-lib": "workspace:^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.7"
+  }
+}
